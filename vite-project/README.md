@@ -1,8 +1,36 @@
-# React + Vite
+# E-Commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-featured e-commerce web application built using **React**, **Redux**, and **Redux-Saga**, with full local state persistence using **localStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **User Authentication** (Login/Register)
+- Admin and Customer roles
+- Optional checkbox to allow others to view order history
+
+- **Product Management**
+- Admin can add, edit, delete products
+- Supports product image, price, quantity, category, and description
+- Product sales and inventory tracking
+
+- **Cart Functionality**
+- Add and remove products
+- Quantity control with stock limit
+- Total price calculation
+
+- **Statistics Dashboard (Admin)**
+- Pie chart: products sold (by quantity)
+- Bar chart: products purchased by user (with user filter)
+
+- **Customer Management**
+- View registered users
+- View detailed order history per user
+- Displays registration date (Joined At)
+
+- **Product Catalog**
+- Filter by category, title, and price range
+- Responsive product cards
+
+---
